@@ -1,0 +1,44 @@
+body {
+	background-image: url('	green.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+h1{
+	border-width: 2px;
+	border-style: dotted;
+	border-color: blue;	
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left:  15px;
+	width: 250px;
+	margin-bottom: 20px;
+	background-color: #FBF6F6;
+	text-align: center;
+	
+	
+}
+
+p{
+	font-style: normal;
+	border-style: dotted solid double dashed;
+	border-width: 3px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left:  20px;
+	width: 500px;
+	background-color:hsl(360, 50%, 98%, 95%);
+	text-align: justify;
+}
+
+span{
+	
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	margin-left: 2px;
+	margin-right: 5px;
+}
