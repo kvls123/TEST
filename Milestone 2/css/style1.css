@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-color: white;
+}
+
+body .info {
+	color: #949F83;
+}
+
+#content .sidebar {
+	position: fixed;
+	background: #DBF1BC;
+	height: 100%;
+	width: 100px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+#sidebar1 {
+	position: relative;
+	top: 320px;	
+}
+
+#content .sidebar ul li {
+	text-align: center;
+	padding: 15px;
+}
+
+#content .sidebar ul li:hover{
+	background: #CCDFB0;
+}
+
+.logo {
+	float: right;
+	position: top;
+	padding-top: 10px;
+	padding-right: 50px;
+}
+
+.heading {
+	color: #757E68;
+	font-size: 50px;
+	position: sticky;
+	text-align: left;
+	font-style: bold;
+	padding: 50px;
+	background-color:#E2F6C4;
+	padding-left: 150px;
+	z-index: -1;
+}
+
+.heading h1 {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+
+.heading p {
+	font-size: 20px;
+	text-align: left center;
+	padding-left: 3px;
+	margin:0;
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#picture {
+	border-style: none;
+	border-width: 5px;
+	border-radius: 25px;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left:  50px;
+	width: 500px;
+	background-color: #E2F6C4;
+	text-align: center;
+	margin-bottom: 50px;
+	position: relative;
+	left: 220px;
+	
+}
+
+.text h2 {
+	position: sticky;
+	padding-left: 120px;
+	padding-top: 50px;
+	margin-bottom: 100px;
+
+}
+.text p {
+	position: relative;
+	left: 60px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #E2F6C4;
+	border-style: none;
+	border-width: 5px;
+	border-radius: 25px;
+	padding: 100px;
+	margin-bottom: 150px;
+	width: 800px;
+}
+
+.text p span {
+	font-weight: bold;
+}
+
+.text2 {
+	position: relative;
+	left: 740px;
+	bottom: 559px;
+	font-size: 17px ;
+	font-style: normal;
+	text-align: center;
+	background-color: #E2F6C4;
+	border-style: none;
+	border-width: 5px;	
+	border-radius: 25px;
+	padding-top: 133px;
+	padding-right: 80px;
+	padding-bottom: 150px;
+	padding-left:  80px;
+	width: 500px;
+}
+
+#footer {
+	clear:both;
+	background-color:#E2F6C4;
+}
+
+#footer p {
+	text-align: center;
+}
